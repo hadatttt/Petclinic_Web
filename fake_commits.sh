@@ -131,9 +131,9 @@ make_commit "2025-01-25T16:30:00" "feat: add log prefix in Helper"
 sed -i '/println/a\        System.out.println(\"Test done.\");' src/test/java/org/springframework/samples/petclinic/sample/FakeServiceTest.java
 make_commit "2025-02-02T10:00:00" "test: add test completion message"
 
-# Push toàn bộ
 git branch -M main
+git remote remove origin 2>/dev/null
 git remote add origin https://github.com/hadatttt/SpringDemo.git
-git push -u origin main
+git push -u origin main --force
 
 
