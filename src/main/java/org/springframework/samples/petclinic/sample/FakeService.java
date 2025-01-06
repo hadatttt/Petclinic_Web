@@ -1,1 +1,4 @@
-// Empty Service
+package org.springframework.samples.petclinic.sample;
+
+public class FakeService {
+}
