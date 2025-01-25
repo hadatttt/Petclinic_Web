@@ -5,3 +5,4 @@ public class Helper {
         System.err.println(msg);
     }
 }
+private static final String PREFIX = "[LOG] ";
