@@ -5,5 +5,6 @@ public class FakeServiceTest {
         assert fs.sayHello().equals("Hello Spring Framework");
         FakeService fs = new FakeService();
         System.out.println(fs.sayHello());
+        System.out.println("Test done.");
     }
 }
